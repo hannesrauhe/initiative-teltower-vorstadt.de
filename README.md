@@ -21,6 +21,13 @@ URLs and file names), and the redundant "Blog" entry in the Seiten sidebar widge
 Same-origin URLs were made root-relative and links restored to the original clean form
 (`/blog/…/`, no trailing `index.html`).
 
+Gravatar author avatars (all three were the generic placeholder) are served from
+`blog/wp-content/uploads/avatars/` instead of `secure.gravatar.com`, so the site loads
+no third-party resources and no visitor IPs reach Automattic. The Impressum was updated
+accordingly after the crawl: GitHub Pages hosting disclosure instead of the Automattic
+emoji/WordPress.com entries (the one page where the mirror intentionally diverges from
+the WordPress original).
+
 ## Known faithful quirks
 
 - `blog/wp-content/uploads/2022/05/Girlande.jpg` 404s — broken on the live site too

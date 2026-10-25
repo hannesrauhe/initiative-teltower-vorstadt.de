@@ -17,7 +17,9 @@ exactly; nothing redirects. Hosted via custom domain (see `CNAME`).
 
 Search widget, comment forms/JS, RSS/Atom/oEmbed discovery, REST/pingback/RSD/shortlink
 head tags, emoji CDN loader, IE conditional blocks, `?ver=` cache busters (stripped from
-URLs and file names). Same-origin URLs were made root-relative.
+URLs and file names), and the redundant "Blog" entry in the Seiten sidebar widget.
+Same-origin URLs were made root-relative and links restored to the original clean form
+(`/blog/…/`, no trailing `index.html`).
 
 ## Known faithful quirks
 
